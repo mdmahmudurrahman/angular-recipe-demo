@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### Generate planned componets 
+-> ng g c recipes --spec false
+-> ng g c recipes/recipe-list --spec false
+-> ng g c recipes/recipe-list/recipe-item --spec false
+-> ng g c shopping-list --spec false
+-> ng g c shopping-list/shopping-edit --spec false
+
